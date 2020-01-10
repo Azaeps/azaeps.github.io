@@ -1,7 +1,47 @@
-.jumbotron {
-    height: 70vh;
-    background-image: url("jumbo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+    background-color: #14171a;
+}
+
+.bite {
+    font-size: 10em;
+    font-family: Arial;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.aide {
+    color: lightgreen;
+    text-decoration: none;
+    border: 2px solid lightgreen;
+    padding: 0.7%;
+    border-radius: 3%;
+    font-size: 5em;
+    margin-left: 5.5em;
+}
+
+.pasaide {
+    color: red;
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 0.7%;
+    border-radius: 3%;
+    font-size: 5em;
+}
+
+.aide:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+.pasaide:hover {
+    background-color: red;
+    color: white;
+}
+
+.pute {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17em;
 }
